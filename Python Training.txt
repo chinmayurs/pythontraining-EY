@@ -1,0 +1,43 @@
+
+
+
+Why and what is OOP? Can we skip it?
+    Any scalable application that you develop using Python are in the form of classes. 
+    Classes have objects which are responsible for handling any action inside the class.
+    Objects can be attributes (variables) or methods (functions)
+    The moment we want to use an object, we create an instance of the class
+    Class variables are static variables native to the class that are applied across all instances of the class
+    
+    What is the necessity of __init__, self, super and are these really necessary?
+    When to use class methods, static methods and instance methods?
+
+    Inheritance - Why is it important?
+    Dunder methods - __name__, __init__, __setattr__, __size__, __set__, __divmod__, __add__, __sub__, __ceil__, __bool__, etc
+    Decorators - Getters, Setters and Deleters - logic validation, data encapsulation and avoiding direct access to a class 
+
+    https://www.youtube.com/playlist?list=PL-osiE80TeTsqhIuOqKhwlXsIBIdSeYtc - OOP
+
+
+
+What are map, reduce, filter, apply, zip and lambda functions?
+    https://levelup.gitconnected.com/python-special-methods-map-reduce-filter-apply-zip-lambda-d2049d66a26b
+
+
+
+Regular Expressions
+    https://www.w3schools.com/python/python_regex.asp
+    https://www.freecodecamp.org/news/python-regex-tutorial-how-to-use-regex-inside-lambda-expression/
+
+
+
+Pandas:
+    loc, iloc, dataframes, Series
+    Indexing, inplace, reset_index, set_index
+    Filter rows and columns
+    Updating without modifying dataframes - add, remove, update 
+    Sorting, Grouping, Aggregating
+    Data Cleansing
+    Time Series data and datetimes
+    Store into flat files of different types
+
+    https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS - Pandas
