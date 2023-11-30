@@ -1,10 +1,10 @@
-#In Python, `map`, `reduce`, `filter`, `apply`, `zip`, and `lambda` are all functions or concepts commonly used in functional programming.
+#In Python, 'map', 'reduce', 'filter', 'apply', 'zip', and 'lambda' are all functions or concepts commonly used in functional programming.
 
-#1. `map` function:
+#1. 'map' function:
 
-#The `map` function applies a given function to all items in an input list (or any iterable) and returns an iterator of the results.
+#The 'map' function applies a given function to all items in an input list (or any iterable) and returns an iterator of the results.
 
-# Example of map function
+# Example
 numbers = [1, 2, 3, 4, 5]
 
 # Using map to square each number
@@ -18,13 +18,13 @@ print(squared_numbers_list)
 
 ------------------------------------------------------------------------------
 
-#2. `reduce` function:
+#2. 'reduce' function:
 
-#The `reduce` function performs a cumulative operation on the items of an iterable, from left to right, to reduce the iterable to a single accumulated result.
+#The 'reduce' function performs a cumulative operation on the items of an iterable, from left to right, to reduce the iterable to a single accumulated result.
 
 from functools import reduce
 
-# Example of reduce function
+# Example
 numbers = [1, 2, 3, 4, 5]
 
 # Using reduce to find the product of all numbers
@@ -35,11 +35,11 @@ print(product)
 
 ------------------------------------------------------------------------------
 
-#3. `filter` function:
+#3. 'filter' function:
 
-#The `filter` function filters elements from an iterable based on a function that returns `True` or `False`.
+#The 'filter' function filters elements from an iterable based on a function that returns 'True' or 'False'.
 
-# Example of filter function
+# Example
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 # Using filter to get even numbers
@@ -53,11 +53,11 @@ print(even_numbers_list)
 
 ------------------------------------------------------------------------------
 
-#4. `zip` function:
+#4. 'zip' function:
 
-#The `zip` function combines multiple iterables element-wise.
+#The 'zip' function combines multiple iterables element-wise.
 
-# Example of zip function
+# Example
 names = ["Alice", "Bob", "Charlie"]
 ages = [25, 30, 35]
 
@@ -72,11 +72,11 @@ print(combined_list)
 
 ------------------------------------------------------------------------------
 
-#5. `lambda` function:
+#5. 'lambda' function:
 
-#A `lambda` function is an anonymous function defined with the `lambda` keyword. It's often used for short, simple operations.
+#A 'lambda' function is an anonymous function defined with the 'lambda' keyword. It's often used for short, simple operations.
 
-# Example of lambda function
+# Example
 add = lambda x, y: x + y
 
 result = add(3, 4)
