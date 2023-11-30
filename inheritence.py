@@ -10,18 +10,18 @@ class Animal:
 # Define a subclass (derived class) that inherits from Animal
 class Dog(Animal):
     def speak(self):
-        return f"{self.name} says Woof!"
+        return f"{self.name} barks."
 
 
 # Define another subclass (derived class) that also inherits from Animal
 class Cat(Animal):
     def speak(self):
-        return f"{self.name} says Meow!"
+        return f"{self.name} meows."
 
 
 # Create instances of the subclasses
 dog_instance = Dog("fluffy")
-cat_instance = Cat("billi")
+cat_instance = Cat("blacky")
 
 # Accessing methods from the base class and subclasses
 print(f"{dog_instance.name} is an animal.")
